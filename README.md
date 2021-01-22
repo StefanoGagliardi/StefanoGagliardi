@@ -107,6 +107,7 @@ A coffee to increase the productivity of the many open source projects offered t
 :pencil2: **My Todoist in freetime:**
 1. :a: Finire la bio: copiare icone svg social in questa repo + aggiungere Facebook e Instagram
 2. :b: Aggiornare la lista e le icone dei linguaggi usati
+3. :c: Capire il funzionamento e aggiornare il grafico del tempo speso per linguaggio
 
 Meno prioritari:
 3 Riorganizzare le repo e pubblicarle
