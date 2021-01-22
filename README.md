@@ -1,20 +1,15 @@
-# Angel Jaime
+# Stefano Gagliardi - Software Engeneering [@sitisrl](https://sitisrl.it)
 
 <h2 align="center">About me</h2>
 
-```golang
-package main
+```typescript
+import { Skills } from './../interfaces/';
+export interface Developer extends Skills {
+    fullName: string;
+    bio: Bio;
+}
+export type Bio = {
 
-import (
-	"fmt"
-)
-
-type Bio map[string]string
-
-func main() {
-	for k, v := range GetBio() {
-		fmt.Printf("%+v: %+v\n", k, v)
-	}
 }
 
 func GetBio() Bio {
