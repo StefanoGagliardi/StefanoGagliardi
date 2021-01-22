@@ -105,9 +105,12 @@ A coffee to increase the productivity of the many open source projects offered t
 3. [siti-address-plugin]()
 
 :pencil2: **My Todoist in freetime:**
-<!-- TODO-IST:START -->
-1. Riorganizzare le repo e pubblicarle
-2. Ultimare SITI-address-plugin & 
+1. :a: Finire la bio: copiare icone svg social in questa repo + aggiungere Facebook e Instagram
+2. :b: Aggiornare la lista e le icone dei linguaggi usati
+
+Meno prioritari:
+3 Riorganizzare le repo e pubblicarle
+4 Ultimare SITI-address-plugin & 
 
 
 📈 My GitHub Stats: six coffe/day
