@@ -25,10 +25,10 @@ GithubProfile.getInitialProps = async ({ pathname }: NextContext) => {
   const bio: Bio = {
 	"- ⚡ Quick bio:":                    "Class 1995, self-taught, lots of fiddling, lots of study and lots of nights. Mainly web development and research at sitisrl.it",
 	"- 🔭 I’m currently working on":      "Software engineering in web agency. React, Next Js, PHP and more",
-	"- 🌱 I’m currently learning":        "Reacy: go deep in NextJs with Typescript. Publish NPM Package. Python data analist pandas",
+	"- 🌱 I’m currently learning":        "React go deep in NextJs with Typescript. Publish NPM Package. Python data analist pandas",
 	"- 👯 I’m looking to collaborate on": "React, Typescript or Python. I dream to study AI e Deep Learning",
 	"- 🤔 I’m looking for help with":     "Anything related to what I am currently learning 😅",
-	"- 💬 Ask me about":                  "React, Typescript, scss, PHP, Wordpress, javascrip"
+	"- 💬 Ask me about":                  "React, Typescript, scss, PHP, Wordpress, javascript"
     };
     
     return { fullName: "Stefano Gagliardi", bio: bio };
