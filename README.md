@@ -3,26 +3,38 @@
 <h2 align="center">About me</h2>
 
 ```typescript
+import React from 'react';
+import { NextFunctionComponent, NextContext } from 'next'
 import { Skills } from './../interfaces/';
+
+export type Bio = {
+    [key: string]: string;
+}
 export interface Developer extends Skills {
     fullName: string;
     bio: Bio;
 }
-export type Bio = {
 
-}
+export const GithubProfile: NextFunctionComponent = (props: Developer): ReactElement => (
+    <>
+       <h1>So much code to print the bio, read it above :)</h1>
+    </>
+);
 
-func GetBio() Bio {
-	return Bio{
-		"- ⚡ Quick bio:":                    "A kind of metalHead-melomaniac-gearAddict-amateurMusician-traveler-foodLover-gamer-coder-programmer-catLover-sportsAficionado hybrid",
-		"- 🔭 I’m currently working on":      "Tredicom as a Senior Software Developer --- UAdeC as a Part Time Teacher",
-		"- 🌱 I’m currently learning":        "Golang, MongoDB, RabbitMQ, K8s, GCP (Tech stack from my company) --- Sharpening my Front End Skills for the MERN stack (Personal goal)",
-		"- 👯 I’m looking to collaborate on": "Python, Golang and Docker related projects",
-		"- 🤔 I’m looking for help with":     "Anything related to what I am currently learning 😅",
-		"- 💬 Ask me about":                  "Python, PHP, Laravel, SQL, Software Design & Architecture, Web-Dev and SEO",
-		"- 📫 How to reach me:":              "https://github.com/AnhellO#you-can-reach-me-at-alien",
-	}
+GithubProfile.getInitialProps = async ({ pathname }: NextContext) => {
+  const bio: Bio = {
+	"- ⚡ Quick bio:":                    "Class 95, audoditatta, lots of fiddling, lots of study and lots of nights. Mainly web development and research at sitisrl.it",
+	"- 🔭 I’m currently working on":      "Software engineering in web agency. React, Next Js, PHP and more",
+	"- 🌱 I’m currently learning":        "Reacy: go deep in NextJs with Typescript. Publish NPM Package. Python data analist pandas",
+	"- 👯 I’m looking to collaborate on": "React, Typescript or Python. I dream to study AI e Deep Learning",
+	"- 🤔 I’m looking for help with":     "Anything related to what I am currently learning 😅",
+	"- 💬 Ask me about":                  "React, Typescript, scss, PHP, Wordpress, javascrip,",
+	"- 📫 How to reach me:":              "stefano.gagliardi@sitisrl.it"
+    };
+    
+    return { fullName: "Stefano Gagliardi", bio: bio };
 }
+export default GithubProfile;
 ```
 
 <h2 align="center">You can reach me at :alien:</h2>
