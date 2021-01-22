@@ -1,5 +1,4 @@
-# Stefano Gagliardi - Software Engeneering [@sitisrl](https://sitisrl.it)
-
+<h1 align="center">Stefano Gagliardi - Software Engeneering [@sitisrl](https://sitisrl.it)</h1>
 <h2 align="center">About me</h2>
 <h3 align="center">Simple coding joke & Bio</h3>
 
