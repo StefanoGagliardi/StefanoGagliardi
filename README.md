@@ -28,8 +28,7 @@ GithubProfile.getInitialProps = async ({ pathname }: NextContext) => {
 	"- 🌱 I’m currently learning":        "Reacy: go deep in NextJs with Typescript. Publish NPM Package. Python data analist pandas",
 	"- 👯 I’m looking to collaborate on": "React, Typescript or Python. I dream to study AI e Deep Learning",
 	"- 🤔 I’m looking for help with":     "Anything related to what I am currently learning 😅",
-	"- 💬 Ask me about":                  "React, Typescript, scss, PHP, Wordpress, javascrip,",
-	"- 📫 How to reach me:":              "stefano.gagliardi@sitisrl.it"
+	"- 💬 Ask me about":                  "React, Typescript, scss, PHP, Wordpress, javascrip"
     };
     
     return { fullName: "Stefano Gagliardi", bio: bio };
@@ -54,17 +53,17 @@ export default GithubProfile;
 
 <br />
 
-Hi, I'm [Abhishek Naidu!](https://blog.abhisheknaidu.tech/), a passionate self-taught Full Stack Web Developer 🚀 from India.
+Hi, I'm [Stefano Gagliardi!](https://gagliardistefano.i/), a passionate self-taught Full Stack Web Developer 🚀 from Italy.
 
   <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
   
 **Talking about Personal Stuffs:**
 
-- 👨🏽‍💻 I’m currently working on something cool :wink:;
-- 🌱 I’m currently learning Typescript; 
-- 💬 Ask me about anything, I am happy to help;
-- 📫 How to reach me: [@abhisheknaiidu](https://twitter.com/abhisheknaiidu);
-- 📝[Resume](https://drive.google.com/file/d/1sZ5DFLoYLKvJmgoyJc6VZs-JYROl7A9o/view)
+- 👨🏽‍💻 I’m currently working on something cool :wink: <br/>React & React-Native ultimate form generator oriented for developers;
+- 🌱 I’m currently study source code in deep NextJs & React-hook-form;
+- 💬 Ask me about anything, I am happy to help. I gladly participate in open source projects.
+- 📫 How to reach me: [Stefano Gagliardi](mailto:stefano2.gagliardi@sitisrl.it);
+- 📝[Resume](https://github.com/StefanoGagliardi/)
 
 **Languages and Tools:**  
 
@@ -90,17 +89,25 @@ TypeScript   7 mins          ▒░░░░░░░░░░░░░░░░
 ```
 <!--END_SECTION:waka-->
 
-If you like what I do, maybe consider buying me a coffee/tea 🥺👉👈
+If you like what I do, maybe consider buying me a coffee/tea 🥺👉👈 <br/>
+A coffee to increase the productivity of the many open source projects offered to the community!
 
-<a href="https://www.buymeacoffee.com/abhisheknaiidu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
+<a href="https://www.buymeacoffee.com/stefanogagliardi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
 
-🚧 **My Todoist Stats:**
+:heart: **My favorite front-end library:**
+1. Bootstrap grid
+2. Framer Motion
+3. React & NextJs
+
+:trophy: **My top three own repo:**
+1. [react-magic-form]()
+2. [next-redux-ts-boilerplate]()
+3. [siti-address-plugin]()
+
+:pencil2: **My Todoist in freetime:**
 <!-- TODO-IST:START -->
-🏆  6,886 Karma Points           
-🌸  Completed 0 tasks today           
-✅  Completed 524 tasks so far           
-⏳  Longest streak is 10 days
-<!-- TODO-IST:END -->
+1. Riorganizzare le repo e pubblicarle
+2. Ultimare SITI-address-plugin & 
 
 
 📈 My GitHub Stats
