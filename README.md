@@ -17,7 +17,7 @@ export interface Developer extends Skills {
 
 export const GithubProfile: NextFunctionComponent = (props: Developer): ReactElement => (
     <>
-       <h1>So much code to print the bio, read it above :)</h1>
+       <h1>So much code to print the bio, read it below :)</h1>
     </>
 );
 
