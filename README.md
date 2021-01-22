@@ -1,6 +1,7 @@
 # Stefano Gagliardi - Software Engeneering [@sitisrl](https://sitisrl.it)
 
 <h2 align="center">About me</h2>
+<h3 align="center">Simple coding joke & Bio</h3>
 
 ```typescript
 import React from 'react';
