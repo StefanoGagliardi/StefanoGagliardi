@@ -23,7 +23,7 @@ export const GithubProfile: NextFunctionComponent = (props: Developer): ReactEle
 
 GithubProfile.getInitialProps = async ({ pathname }: NextContext) => {
   const bio: Bio = {
-	"- ⚡ Quick bio:":                    "Class 95, audoditatta, lots of fiddling, lots of study and lots of nights. Mainly web development and research at sitisrl.it",
+	"- ⚡ Quick bio:":                    "Class 1995, self-taught, lots of fiddling, lots of study and lots of nights. Mainly web development and research at sitisrl.it",
 	"- 🔭 I’m currently working on":      "Software engineering in web agency. React, Next Js, PHP and more",
 	"- 🌱 I’m currently learning":        "Reacy: go deep in NextJs with Typescript. Publish NPM Package. Python data analist pandas",
 	"- 👯 I’m looking to collaborate on": "React, Typescript or Python. I dream to study AI e Deep Learning",
@@ -110,7 +110,4 @@ A coffee to increase the productivity of the many open source projects offered t
 2. Ultimare SITI-address-plugin & 
 
 
-📈 My GitHub Stats
-
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=abhisheknaiidu&show_icons=true&theme=gotham" alt="abhisheknaiidu" />
-
+📈 My GitHub Stats: six coffe/day
