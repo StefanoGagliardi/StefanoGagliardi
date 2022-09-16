@@ -21,7 +21,7 @@ export const GithubProfile: NextFunctionComponent = (props: Developer): ReactEle
     </>
 );
 
-GithubProfile.getInitialProps = async ({ pathname }: NextContext) => {
+GithubProfile.getInitialProps = async ({ pathname }: NextContext): Developer => {
   const bio: Bio = {
 	"- ⚡ Quick bio:":                    "Class 1995, self-taught, lots of fiddling, lots of study and lots of nights. Mainly web development and research at sitisrl.it",
 	"- 🔭 I’m currently working on":      "Software engineering in web agency. React, Next Js, PHP and more",
